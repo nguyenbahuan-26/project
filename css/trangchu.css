@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+header {
+    background-color: #00704A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+.dinhdanglogo{
+    width:100px;
+    height:100px;
+    margin-left: 15px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    position: relative;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    display: block;
+}
+nav a:hover {
+    background-color: #575757;
+}
+nav .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 200px;
+    z-index: 1;
+}
+nav .submenu a {
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+nav li:hover .submenu {
+    display: block;
+}
+.content-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.section h2 {
+    color: #00704A;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.three-steps {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.three-steps .step {
+    flex: 1;
+    margin: 0 10px;
+}
+.three-steps .step img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.menu-section .menu-item {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+.menu-section .menu-item img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.btn-container a {
+    background-color: #00704A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-container a:hover {
+    background-color: #005030;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.anhchuongtrinhthanhvien{
+    width: 400px;
+}
+.video-container {
+    margin: 40px 0;
+    text-align: center;
+}
+.video-container video {
+    width: 900px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

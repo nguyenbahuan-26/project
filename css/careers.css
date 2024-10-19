@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #00704A;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content: center;
+}
+.dinhdanglogo{
+    width:100px;
+    height:100px;
+    margin-left: 15px;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    position: relative;
+}
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #575757;
+}
+nav ul li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav ul li:hover .submenu {
+    display: block;
+}
+nav ul li .submenu a {
+    padding: 10px 20px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+}
+.content-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    color: #00704A;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.vision-mission-values {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.vision-mission-values .item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+.vision-mission-values img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.about-us {
+    text-align: center;
+}
+.about-us video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.work-environment {
+    text-align: center;
+}
+.work-environment img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.job-search {
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 8px;
+}
+.job-search form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.job-search input, .job-search select, .job-search button {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.job-search button {
+    background-color: #00704A;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.job-search button:hover {
+    background-color: #005736;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
